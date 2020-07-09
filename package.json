@@ -1,5 +1,5 @@
 {
-  "name": "@vitoodoni/react-native-direct-sms",
+  "name": "@vitobreda/react-native-direct-sms",
   "version": "1.0.0",
   "description": "component to send sms without user interaction",
   "main": "index.js",
