@@ -1,0 +1,19 @@
+{
+  "name": "@vitobreda/react-native-direct-sms",
+  "version": "1.0.0",
+  "description": "component to send sms without user interaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoodoni/react-native-direct-sms.git"
+  },
+  "author": "vito breda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoodoni/react-native-direct-sms/issues"
+  },
+  "homepage": "https://github.com/vitoodoni/react-native-direct-sms#readme"
+}
