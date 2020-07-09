@@ -1,5 +1,5 @@
 {
-  "name": "@vitobreda/react-native-direct-sms",
+  "name": "@vitoodoni/react-native-direct-sms",
   "version": "1.0.0",
   "description": "component to send sms without user interaction",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vitoodoni/react-native-direct-sms/issues"
   },
-  "homepage": "https://github.com/vitoodoni/react-native-direct-sms#readme"
+  "homepage": "https://github.com/vitoodoni/react-native-direct-sms#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
