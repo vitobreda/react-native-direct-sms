@@ -1,8 +1,8 @@
 {
   "name": "react-native-direct-sms",
   "title": "React Native Direct Sms",
-  "version": "1.0.1",
-  "description": "TODO",
+  "version": "1.0.2",
+  "description": "This module allows send sms without user interaction",
   "main": "index.js",
   "files": [
     "README.md",
