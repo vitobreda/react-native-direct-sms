@@ -1,22 +1,41 @@
 {
-  "name": "@vitobreda/react-native-direct-sms",
+  "name": "react-native-direct-sms",
+  "title": "React Native Direct Sms",
   "version": "1.0.0",
-  "description": "component to send sms without user interaction",
+  "description": "TODO",
   "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-direct-sms.podspec"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitoodoni/react-native-direct-sms.git"
+    "url": "git+https://github.com/github_account/react-native-direct-sms.git",
+    "baseUrl": "https://github.com/github_account/react-native-direct-sms"
   },
-  "author": "vito breda",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vitoodoni/react-native-direct-sms/issues"
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
   },
-  "homepage": "https://github.com/vitoodoni/react-native-direct-sms#readme",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
-  }
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "dependencies": {}
 }
