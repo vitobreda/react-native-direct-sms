@@ -34,7 +34,7 @@ function sendDirectSms() {
             },
         );
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-            DirectSms.sendDirectSms('0935...', 'This is a direct message');
+            DirectSms.sendDirectSms('999...', 'This is a direct sms');
         } else {
             console.log('SMS permission denied');
         }
