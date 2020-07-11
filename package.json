@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-direct-sms.git",
-    "baseUrl": "https://github.com/github_account/react-native-direct-sms"
+    "url": "git+https://https://github.com/vitoodoni/react-native-direct-sms",
+    "baseUrl": "https://https://github.com/vitoodoni/react-native-direct-sms"
   },
   "keywords": [
     "react-native"
