@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/vitoodoni/react-native-direct-sms",
-    "baseUrl": "https://https://github.com/vitoodoni/react-native-direct-sms"
+    "url": "git+https://github.com/vitobreda/react-native-direct-sms",
+    "baseUrl": "https://github.com/vitobreda/react-native-direct-sms"
   },
   "keywords": [
     "react-native"
@@ -37,5 +37,8 @@
     "react": "^16.9.0",
     "react-native": "^0.61.5"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@vitobreda"
+  }
 }
