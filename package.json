@@ -1,7 +1,7 @@
 {
   "name": "react-native-direct-sms",
   "title": "React Native Direct Sms",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This module allows send sms without user interaction",
   "main": "index.js",
   "files": [
@@ -37,8 +37,5 @@
     "react": "^16.9.0",
     "react-native": "^0.61.5"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@vitobreda"
-  }
+  "dependencies": {}  
 }
