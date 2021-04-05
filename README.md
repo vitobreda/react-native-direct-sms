@@ -12,14 +12,21 @@
 ```javascript
 import DirectSms from 'react-native-direct-sms';
 
-DirectSms.sendDirectSms('999...', 'This is a direct sms');
+DirectSms
+.sendDirectSms('999...', 'This is a direct sms')
+.then(()=>{
+    console.log("sms sent");
+})
+.catch((e)=>{
+    console.log("have a error", e);
+})
  
 ```
 
 ## User Permission
 
 ```javascript
-function sendDirectSms() {
+async function sendDirectSms(number, mensage) {
     try {
         const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.SEND_SMS,
@@ -34,7 +41,7 @@ function sendDirectSms() {
             },
         );
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-            DirectSms.sendDirectSms('999...', 'This is a direct sms');
+         const messageStatus =  await DirectSms.sendDirectSms(number, mensage);
         } else {
             console.log('SMS permission denied');
         }
